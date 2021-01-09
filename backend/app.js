@@ -15,8 +15,8 @@ const api = process.env.API_URL;
 app.get(`${api}/products`, (req,res)=>{
     const product = {
         id: 1,
-        name: 'Women Shoes',
-        image: 'some_url',
+        name: 'Chocolate',
+        image: 'url_here',
     }
     res.send(product);
 })
