@@ -33,7 +33,7 @@ mongoose.connect(process.env.CONNECTION_STRING, {
     dbName: 'AyyoSalli-DB'
 })
 .then(()=>{
-    console.log('Database Connection is ready...')
+    console.log('Database Connection is ready...');
 })
 .catch((err)=>{
     console.log(err);
